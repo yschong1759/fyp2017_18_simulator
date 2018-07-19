@@ -25,7 +25,7 @@ You may use the model database by Gazebo or create your own model.
 
 * To create a model
   Refer to the Gazebo tutorial: 
-  [Build a robot, import mesh, add sensor](http://gazebosim.org/)tutorials?tut=build_robot&cat=build_robot
+  [Build a robot, import mesh, add sensor](http://gazebosim.org/tutorials?tut=build_robot&cat=build_robot)
 
 * [Understanding how Gazebo and ROS communicate](http://gazebosim.org/tutorials?tut=ros_roslaunch&cat=connect_ros)
 
@@ -59,7 +59,9 @@ Troubleshooting
     It is likely because ROS could not locate Gazebo. To solve,
 
     * In a new terminal, enter `source /opt/ros/<distro-version>/setup.bash`
+    
     * Add your catkin workspace to `ROS_PACKAGE_PATH`, enter `ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/path/to/your/workspace/src`
+    
     * Then, launch Gazebo again with `roslaunch`
 
 2. 
